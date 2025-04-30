@@ -1,0 +1,16 @@
+{
+  "name": "drupal/farm_integration",
+  "description": "farmOS module for integrations.",
+  "type": "drupal-module",
+  "homepage": "https://drupal.org/project/farm_integration",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+      {
+          "name": "Michael Stenta",
+          "email": "mike@farmier.com"
+      }
+  ],
+  "require": {
+    "farmos/farmos": "^3 || ^4"
+  }
+}

@@ -1,0 +1,7 @@
+farm.integrations:
+  path: /integrations
+  defaults:
+    _controller: \Drupal\farm_integration\Controller\IntegrationsController::index
+    _title: Integrations
+  requirements:
+    _permission: access farm integrations
