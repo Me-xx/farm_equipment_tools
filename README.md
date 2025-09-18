@@ -1,10 +1,10 @@
 # farmOS Equipment Tools
 
-On location pages, also list assets/logs that are in child locations
-Adding an Equipment to a Location directly (creates the Equipment and the log for the initial Location)
-
+On location pages, also list assets/logs that are in child locations(equipmentTree), not integrated in the Gui at all, should be a new Tab like the Logs and Places
+![equipmentTreeScreenshot](equipmentTree.jpg)
+Adding an Equipment to a Location directly (creates the Equipment and the log for the initial Location), currently only visible for Structures
+![Add equipment Screenshot](addEquipment.jpg)
 Currently i have not desigend some Test Modules. Copilot was used to create the code … so maybe it’s not fully compliant.
-
 The integrated duplicate Feature might not be necessary as it can be realized by asset clone.
 ## TODO
 [ ] Check if there are existing serives or features that should be used in stead
