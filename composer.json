@@ -1,13 +1,13 @@
 {
-  "name": "drupal/farm_integration",
-  "description": "farmOS module for integrations.",
+  "name": "drupal/farm_equipment_tools",
+  "description": "farmOS module for equipment handling.",
   "type": "drupal-module",
-  "homepage": "https://drupal.org/project/farm_integration",
+  "homepage": "https://github.com/Me-xx/farm_equipment_tools",
   "license": "GPL-2.0-or-later",
   "authors": [
       {
-          "name": "Michael Stenta",
-          "email": "mike@farmier.com"
+          "name": "Moritz Haag",
+          "email": "farmer@me-xx.de"
       }
   ],
   "require": {
