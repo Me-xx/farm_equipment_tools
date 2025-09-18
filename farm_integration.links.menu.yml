@@ -1,5 +1,0 @@
-farm.integrations:
-  title: Integrations
-  parent: farm.base
-  route_name: farm.integrations
-  weight: 10
