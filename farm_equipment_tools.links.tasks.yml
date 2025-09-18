@@ -1,0 +1,5 @@
+farm_equipment_tools.equipment_tree_tab:
+  route_name: farm_equipment_tools.equipment_tree
+  title: 'Equipment Tree'
+  base_route: entity.asset.canonical
+  weight: 100

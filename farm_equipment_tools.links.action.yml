@@ -1,0 +1,5 @@
+farm_equipment_tools.duplicate_equipment_action:
+  route_name: farm_equipment_tools.duplicate_equipment
+  title: 'Duplizieren'
+  appears_on:
+    - entity.asset.canonical

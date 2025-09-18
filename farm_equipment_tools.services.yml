@@ -1,0 +1,6 @@
+services:
+  farm_equipment_tools.asset_hierarchy:
+    class: Drupal\farm_equipment_tools\AssetHierarchyService
+    arguments:
+      - '@entity_type.manager'
+      - '@asset.location'

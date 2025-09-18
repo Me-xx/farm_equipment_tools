@@ -1,0 +1,27 @@
+farm_equipment_tools.add_equipment:
+  path: '/structure/{asset}/add-equipment'
+  defaults:
+    _controller: '\Drupal\farm_equipment_tools\Controller\AddEquipmentController::add'
+    _title: 'Add Equipment'
+  requirements:
+    _permission: 'create asset entities'
+
+farm_equipment_tools.duplicate_equipment:
+  path: '/equipment/{asset}/duplicate'
+  defaults:
+    _controller: '\Drupal\farm_equipment_tools\Controller\DuplicateEquipmentController::duplicate'
+    _title: 'Duplicate Equipment'
+  requirements:
+    _permission: 'create asset entities'
+
+farm_equipment_tools.equipment_tree:
+  path: '/asset/{asset}/equipment-tree'
+  defaults:
+    _form: '\Drupal\farm_equipment_tools\Form\EquipmentTreeForm'
+    _title: 'Equipment Tree'
+  requirements:
+    _permission: 'access content'
+  options:
+    parameters:
+      asset:
+        type: entity:asset

@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * Hooks and alterations for Farm Equipment Tools.
+ */
+
+use Drupal\Core\Url;
+use Drupal\Core\Link;
+
+/**
+ * Implements hook_entity_view_alter().
+ */
+function farm_equipment_tools_entity_view_alter(array &$build, \Drupal\Core\Entity\EntityInterface $entity, \Drupal\Core\Entity\Display\EntityViewDisplayInterface $display) {
+  // Nur bei Asset vom Typ 'structure'.
+  if ($entity->getEntityTypeId() === 'asset' && $entity->bundle() === 'structure') {
+    $url = Url::fromRoute('farm_equipment_tools.add_equipment', ['asset' => $entity->id()]);
+    $link = Link::fromTextAndUrl(t('Ausrüstung hinzufügen'), $url)->toRenderable();
+    $link['#attributes']['class'][] = 'button button--primary';
+    $build['add_equipment_button'] = [
+      '#type' => 'container',
+      'link' => $link,
+    ];
+  }
+}

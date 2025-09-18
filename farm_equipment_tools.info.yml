@@ -1,0 +1,8 @@
+name: 'Farm Equipment Tools'
+type: module
+description: 'Adds quick-add and duplicate buttons for Equipment assets in structure view.'
+core_version_requirement: ^9 || ^10
+package: 'Custom'
+dependencies:
+  - farm:farm_structure
+  - farm:farm_log
