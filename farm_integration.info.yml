@@ -1,5 +1,0 @@
-name: farmOS Integrations
-type: module
-description: farmOS module for integrations.
-package: farmOS Contrib
-core_version_requirement: ^9 || ^10 || ^11
